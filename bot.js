@@ -227,7 +227,7 @@ message.channel.send(`**${message.author.username}, your :credit_card: balance i
 
 client.on('message', async message => {
     let amount = 93000000;
-    if(message.content.startsWith(prefix + "daily")) {
+    if(message.content.startsWith(prefix + "mummm")) {
     if(message.author.bot) return;
     if(coolDown.has(message.author.id)) return message.channel.send(`**:stopwatch: | ${message.author.username}, your daily :yen: credits refreshes in \`\`1 Day\`\`.**`);
     
